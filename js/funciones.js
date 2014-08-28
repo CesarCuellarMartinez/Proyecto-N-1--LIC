@@ -40,7 +40,7 @@ soluciones[15] = ["Posblemente sea causa de los secuestradores de navegadores, e
 var pregs="";
 var pagina = self.location.href.match( /\/([^/]+)$/ )[1];
 
-if(pagina=="soporte.html") {
+if(pagina=="base.html") {
      for (var i = 0; i <= errores.length-1 ;  i++) 
      {
           pregs+="<div class='preguntas'><div class='pregunta' id='pregunta"+i+"'onclick='mostrarResp(resp"+i+")'>Q: "+errores[i]+"</div>";
@@ -49,37 +49,37 @@ if(pagina=="soporte.html") {
           pregs+="</div>";
           if (i!=errores.length-1) 
           {
-               pregs+="<br>";
+               pregs+="<hr />";
           }
      }
 }
 else{
      pregs+="<div class='preguntas'><div class='pregunta' id='pregunta"+1+"'onclick='mostrarResp(resp"+1+")'>Q: "+errores[1]+"</div>";
-     pregs+="<div class='respuesta' id='resp"+1+"' style='display:none;'><h3>Solucion</h3>"+soluciones[1]+"</div></div><br>";
+     pregs+="<div class='respuesta' id='resp"+1+"' style='display:none;'><h3>Solucion</h3>"+soluciones[1]+"</div></div><hr />";
 
      pregs+="<div class='preguntas'><div class='pregunta' id='pregunta"+2+"'onclick='mostrarResp(resp"+2+")'>Q: "+errores[2]+"</div>";
-     pregs+="<div class='respuesta' id='resp"+2+"' style='display:none;'><h3>Solucion</h3>"+soluciones[2]+"</div></div><br>";
+     pregs+="<div class='respuesta' id='resp"+2+"' style='display:none;'><h3>Solucion</h3>"+soluciones[2]+"</div></div><hr />";
 
      pregs+="<div class='preguntas'><div class='pregunta' id='pregunta"+7+"'onclick='mostrarResp(resp"+7+")'>Q: "+errores[7]+"</div>";
-     pregs+="<div class='respuesta' id='resp"+7+"' style='display:none;'><h3>Solucion</h3>"+soluciones[7]+"</div></div><br>";
+     pregs+="<div class='respuesta' id='resp"+7+"' style='display:none;'><h3>Solucion</h3>"+soluciones[7]+"</div></div><hr />";
 
      pregs+="<div class='preguntas'><div class='pregunta' id='pregunta"+4+"'onclick='mostrarResp(resp"+4+")'>Q: "+errores[4]+"</div>";
-     pregs+="<div class='respuesta' id='resp"+4+"' style='display:none;'><h3>Solucion</h3>"+soluciones[4]+"</div></div><br>";
+     pregs+="<div class='respuesta' id='resp"+4+"' style='display:none;'><h3>Solucion</h3>"+soluciones[4]+"</div></div><hr />";
 
      pregs+="<div class='preguntas'><div class='pregunta' id='pregunta"+5+"'onclick='mostrarResp(resp"+5+")'>Q: "+errores[5]+"</div>";
-     pregs+="<div class='respuesta' id='resp"+5+"' style='display:none;'><h3>Solucion</h3>"+soluciones[5]+"</div></div><br>";
+     pregs+="<div class='respuesta' id='resp"+5+"' style='display:none;'><h3>Solucion</h3>"+soluciones[5]+"</div></div><hr />";
 
      pregs+="<div class='preguntas'><div class='pregunta' id='pregunta"+14+"'onclick='mostrarResp(resp"+14+")'>Q: "+errores[14]+"</div>";
-     pregs+="<div class='respuesta' id='resp"+14+"' style='display:none;'><h3>Solucion</h3>"+soluciones[14]+"</div></div><br>";
+     pregs+="<div class='respuesta' id='resp"+14+"' style='display:none;'><h3>Solucion</h3>"+soluciones[14]+"</div></div><hr />";
 
      pregs+="<div class='preguntas'><div class='pregunta' id='pregunta"+9+"'onclick='mostrarResp(resp"+9+")'>Q: "+errores[9]+"</div>";
-     pregs+="<div class='respuesta' id='resp"+9+"' style='display:none;'><h3>Solucion</h3>"+soluciones[9]+"</div></div><br>";
+     pregs+="<div class='respuesta' id='resp"+9+"' style='display:none;'><h3>Solucion</h3>"+soluciones[9]+"</div></div><hr />";
 
      pregs+="<div class='preguntas'><div class='pregunta' id='pregunta"+6+"'onclick='mostrarResp(resp"+6+")'>Q: "+errores[6]+"</div>";
-     pregs+="<div class='respuesta' id='resp"+6+"' style='display:none;'><h3>Solucion</h3>"+soluciones[6]+"</div></div><br>";
+     pregs+="<div class='respuesta' id='resp"+6+"' style='display:none;'><h3>Solucion</h3>"+soluciones[6]+"</div></div><hr />";
 
      pregs+="<div class='preguntas'><div class='pregunta' id='pregunta"+15+"'onclick='mostrarResp(resp"+15+")'>Q: "+errores[15]+"</div>";
-     pregs+="<div class='respuesta' id='resp"+15+"' style='display:none;'><h3>Solucion</h3>"+soluciones[15]+"</div></div><br>";
+     pregs+="<div class='respuesta' id='resp"+15+"' style='display:none;'><h3>Solucion</h3>"+soluciones[15]+"</div></div><hr />";
 
      pregs+="<div class='preguntas'><div class='pregunta' id='pregunta"+10+"'onclick='mostrarResp(resp"+10+")'>Q: "+errores[10]+"</div>";
      pregs+="<div class='respuesta' id='resp"+10+"' style='display:none;'><h3>Solucion</h3>"+soluciones[10]+"</div></div>";
