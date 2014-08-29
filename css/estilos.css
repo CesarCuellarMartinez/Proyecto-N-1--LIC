@@ -168,7 +168,9 @@ input:required, textarea:required {
    color: #6EA070;
    display:none; 
 }
-
+nav{
+	padding: 1.5em;
+}
 
 .menu li
 {
